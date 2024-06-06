@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --mainColor: #0C356A;
+    --mainColorLight:#4B72A4;
+    --secondaryColor: #FFC436;
+    --textColor: #000;
+}
+
+.checker-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 110px;
+    font-size: 20px;
+}
+
+.checker-container p span{
+    font-size: 17px;
+}
+
+.upload-section {
+    display: flex;
+    height: 250px;
+    margin-left: 4rem;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: var(--mainColor);
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+    color: var(--mainColor);
+}
+
+p {
+    color: var(--textColor);
+    margin-bottom: 5px;
+}
+
+.checker-upload-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+
+.checker-upload-container .dropzone {
+    padding: 45px;
+    border: 3px dashed var(--mainColor);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.dropzone h4 {
+    margin: 1px 0;
+    font-size: 1.1em;
+    color: var(--mainColor);
+}
+
+.dropzone p{
+    margin: 20px 0;
+    font-size: 0.8em;
+    color: var(--mainColor);
+}
+
+
+.dropzone button {
+    margin-top: 10px;
+    padding: 5px 40px;
+    background-color: var(--secondaryColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 0.8em;
+}
+
+.file-info{
+    width: 120%;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.file-info-bawah {
+    margin-top: 35px;
+}
+
+.file-info h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.file-info-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.file-info-row label {
+    width: calc(20%);
+    border: 1px solid var(--textColor);
+    padding: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0.8em;
+}
+ 
+.file-info-row input {
+    width: calc(100% - 10%);
+    border: 1px solid var(--textColor);
+    padding: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.file-info-row-bawah{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.file-info-row-bawah label {
+    width: calc(20%);
+    border: 1px solid var(--textColor);
+    padding: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0.8em;
+}
+
+.file-info-row-bawah input{
+    width: calc(100% - 10%);
+    border: 1px solid var(--textColor);
+    padding: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+}
